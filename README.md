@@ -1,5 +1,7 @@
 # web-discord-message
 
+During this project we will create a website from zero, at the end on the site it will be possible to send a message on discord. Available on the internet with a domain name in https!
+
 # Create a free domain name on freenom.com.
 
 Replace monsuperdomain.com with what enchants you (especially depending on what will be available for free)
