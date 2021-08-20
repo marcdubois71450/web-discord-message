@@ -193,7 +193,7 @@ The best way to put a flask application in production is to use uswgi.
 
 Google : flask api uwsgi
 
-Nginx conf : https://pastebin.com/raw/YBpskT6A
+Nginx uwsgi conf exemple: https://pastebin.com/raw/YBpskT6A
 
 Everything should work now. Send your site link to Marc.
 
