@@ -183,7 +183,7 @@ Create a simple react application, which calls these routes to send a message. A
 
 The best way to put a flask application in production is to use uswgi.
 
-Goole : flask api uwsgi
+Google : flask api uwsgi
 
 Nginx conf : https://pastebin.com/raw/YBpskT6A
 
