@@ -4,18 +4,26 @@ During this project we will create a website from scratch, at the end on the sit
 
 # Create a free domain name on freenom.com.
 
-Replace monsuperdomain.com with what enchants you (especially depending on what will be available for free)
+Replace monsuperdomain.com with what enchants you (especially depending on what will be available on freenom.com)
 
 This domaine pointing to www.monsuperdomain.com and monsuperdomain.com towards the IP address of the leo server (DNS registration type A: 62.4.30.245)
 
 Command to see if DNS is working with your domain:
 ```
-dig monsuperdomain.com
+$ dig monsuperdomain.com +short
+62.4.30.245
+
+$ dig www.monsuperdomain.com +short
+62.4.30.245
 ```
 or
 ```
 nslookup monsuperdomain.com
+nslookup www.monsuperdomain.com
 ```
+
+
+
 # Connect to leo server 
 
 Windows : 
