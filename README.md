@@ -163,28 +163,30 @@ Everything should be configured, you must now restart nginx for it to take into 
 systemctl reload nginx
 ```
 
-
 Go to https://monsuperdomain.com/
 
 Ok now that the server is ready, we go to the website/api part.
 
-# Create Python Script for send message on discord general channel. 
+# Create Python Script for send message on discord general channel.  (Level +)
 
-# Create Flask Api.
+Google => send message discord python
 
-Blabla 
+# Create Flask Api. (Level ++) 
 
-# Create Web App.
+Create a route per channel. LIke: /general/myamazingmessage or /code/mysecondeamazingmessage
 
-Blabla 
+# Create Web App. (Level ++) 
 
-# Config Nginx For React App with Flask API. 
+Create a simple react application, which calls these routes to send a message. Axios will be your friend. 
 
-BlaBla 
+# Config Nginx For React App with Flask API. (Level ++++++) 
 
-# Modify flask Api & React App for send on choice by user channel (general, code, musique-tracklist). 
+The best way to put a flask application in production is to use uswgi.
 
-Blabla
+Goole : flask api uwsgi
 
+Nginx conf : https://pastebin.com/raw/YBpskT6A
+
+Everything should work now. Send your site link to Marc.
 
 Enjoy! 
